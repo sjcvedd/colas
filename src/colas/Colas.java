@@ -49,19 +49,7 @@ public class Colas {
     
     public static void main(String[] args) {
         queue c = new queue();
-        c.enqueue(0);
-        c.enqueue(1);
-        c.enqueue(2);
-        c.enqueue(3);
-        c.enqueue(4);
-        c.enqueue(5);
-        c.enqueue(6);
-        c.enqueue(7);
-        c.enqueue(8);
-        System.out.println("Sale: " + c.dequeue().dato);
-        System.out.println("Sale: " + c.dequeue().dato);
-        System.out.println("Sale: " + c.dequeue().dato);
-        System.out.println("Sale: " + c.dequeue().dato);
+        
     }
     
 }
